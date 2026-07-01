@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-forest: #1F4D3A;
+  --color-forest-dark: #123023;
+  --color-forest-light: #2D6B52;
+  --color-ivory: #FAF8F2;
+  --color-ivory-dark: #F4EFE6;
+  --color-gold: #C5A059;
+  --color-gold-light: #DFCDAF;
+  --color-gold-dark: #A3855E;
+  --color-gold-muted: rgba(197, 160, 89, 0.2);
+}
+
+/* Custom smooth scrolling and premium styles */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Offset for floating header */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-ivory);
+  color: var(--color-forest);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ivory);
+}
+::-webkit-scrollbar-thumb {
+  background: #1F4D3A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2D6B52;
+}
+
+/* Sophisticated Dark styling enhancements */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.property-card {
+  background: var(--color-white, #FFFFFF);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(31, 77, 58, 0.08);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(197, 160, 89, 0.2);
+}
+
