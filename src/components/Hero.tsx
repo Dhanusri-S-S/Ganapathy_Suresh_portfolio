@@ -9,10 +9,10 @@ interface HeroProps {
 
 export default function Hero({ onExploreProperties, onContact }: HeroProps) {
   const stats = [
-    { value: "15+", label: "Years Experience" },
-    { value: "450+", label: "Happy Clients" },
+    { value: "28+", label: "Years Experience" },
+    { value: "230+", label: "Happy Clients" },
     { value: "100%", label: "DTCP Approved" },
-    { value: "3", label: "Premium Layouts" },
+    { value: "58+", label: "Premium Layouts" },
   ];
 
   const servicesBadges = [
