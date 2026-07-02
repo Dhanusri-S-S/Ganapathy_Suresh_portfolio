@@ -55,7 +55,7 @@ export default function About() {
               <div className="absolute -left-6 -bottom-6 bg-forest border border-gold text-ivory p-4 rounded-xl shadow-xl flex items-center space-x-3 max-w-[210px]">
                 <Award className="w-10 h-10 text-gold shrink-0" />
                 <div className="text-left">
-                  <span className="font-serif text-lg font-bold text-white block">15+ Years</span>
+                  <span className="font-serif text-lg font-bold text-white block">28+ Years</span>
                   <span className="font-sans text-[10px] text-[#DFCDAF] tracking-wider uppercase font-semibold block">Professional Service</span>
                 </div>
               </div>
