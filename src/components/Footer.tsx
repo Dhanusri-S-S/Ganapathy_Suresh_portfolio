@@ -154,7 +154,7 @@ export default function Footer({ onNavigate }: FooterProps) {
       rel="noopener noreferrer"
       className="text-gold hover:text-gold-light font-semibold transition-colors duration-300 underline underline-offset-4"
     >
-      DHANUSRI S S
+      DHANUSRI
     </a>
   </p>
 </div>
