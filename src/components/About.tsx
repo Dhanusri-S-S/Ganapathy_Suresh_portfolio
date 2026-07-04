@@ -69,7 +69,7 @@ export default function About() {
             </h3>
             
             <p className="text-forest/80 font-sans text-base leading-relaxed font-light">
-              Ganapathy Suresh is a highly respected property and construction consultant based in Coimbatore, Tamil Nadu. Over the past fifteen years, he has successfully guided private individuals, business owners, and corporate investors through the complexities of real estate acquisition, layout planning, and custom building development.
+              Ganapathy Suresh is a highly respected property and construction consultant based in Coimbatore, Tamil Nadu. Over the past 28 years, he has successfully guided private individuals, business owners, and corporate investors through the complexities of real estate acquisition, layout planning, and custom building development.
             </p>
 
             <p className="text-forest/80 font-sans text-base leading-relaxed font-light">
