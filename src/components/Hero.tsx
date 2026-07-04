@@ -146,13 +146,13 @@ export default function Hero({ onExploreProperties, onContact }: HeroProps) {
             <div className="w-full h-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gold/20 flex flex-col p-4 relative">
               
               {/* Image Frame */}
-              <div className="w-full flex-grow rounded-lg overflow-hidden bg-forest/5 border border-gold/10 relative shadow-inner">
+                <div className="relative w-full h-[430px] rounded-lg overflow-hidden bg-forest/5 border border-gold/10 shadow-inner">
                 <img
-                  src="/portfolio.jpg"
-                  alt="Ganapathy Suresh"
-                  className="w-full h-full object-cover grayscale-[15%] contrast-[105%]"
-                  referrerPolicy="no-referrer"
-                  loading="eager"
+                src="/portfolio.jpg"
+               alt="Ganapathy Suresh"
+               className="absolute inset-0 w-full h-full object-cover grayscale-[15%] contrast-[105%]"
+               referrerPolicy="no-referrer"
+               loading="eager"
                 />
                 
                 {/* Embedded DTCP Gold Stamp Badge */}
