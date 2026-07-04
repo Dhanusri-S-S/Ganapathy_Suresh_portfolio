@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -68,6 +69,8 @@ export default function App() {
         
         {/* Mailto Contact Forms & Direct Connection Buttons */}
         <Contact />
+
+        <FloatingWhatsApp />
       </main>
 
       {/* Corporate footer details */}
