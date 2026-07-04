@@ -105,28 +105,28 @@ export const SERVICES: Service[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: "t-1",
-    name: "Ranganathan Swamy",
-    role: "NRI Client, Singapore",
-    comment: "Ganapathy Suresh made my plot purchase in Karanampettai completely transparent and stress-free. As an NRI, clear documentation was my biggest concern, but his thorough verification gave me complete peace of mind.",
+    name: "VIGNESH VARAN",
+    role: "Homeowner,Cbe",
+    comment: "Ganapathy Suresh made my plot purchase in Thudiyalur completely transparent and stress-free.Clear documentation was my biggest concern, but his thorough verification gave me complete peace of mind.",
     rating: 5
   },
   {
     id: "t-2",
-    name: "Anitha Krishnan",
+    name: "LEELA",
     role: "Homeowner, Coimbatore",
-    comment: "Excellent experience. He helped me select the perfect DTCP-approved plot in Gowthampuri and assisted in procuring a bank loan in record time. His professionalism is exemplary.",
+    comment: "Excellent experience. He helped me select the perfect DTCP-approved plot in SIvanandha colony and assisted in procuring a bank loan in record time. His professionalism is exemplary.",
     rating: 5
   },
   {
     id: "t-3",
-    name: "Dr. Prem Kumar",
+    name: "Vijay Kumar",
     role: "Real Estate Investor",
     comment: "I rely entirely on Suresh's investment advice for land acquisition in Tamil Nadu. His understanding of upcoming infrastructure projects and local zoning laws is unmatched.",
     rating: 5
   },
   {
     id: "t-4",
-    name: "M. Saravanan",
+    name: "Saravanan",
     role: "Business Owner",
     comment: "His construction consulting services saved us significant costs when building our commercial warehouse. Professional, honest, and highly reliable advice.",
     rating: 5
