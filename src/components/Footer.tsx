@@ -158,19 +158,6 @@ export default function Footer({ onNavigate }: FooterProps) {
     </a>
   </p>
 </div>
-        {/* Separator and copyright bottom bar */}
-        <div className="border-t border-ivory/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 font-sans text-[11px] text-ivory/65">
-          <div className="text-center md:text-left">
-            &copy; {currentYear} Ganapathy Suresh. All Rights Reserved. Fully Certified Property &amp; Legal Consultations.
-          </div>
-          <div className="flex space-x-4">
-            <span className="hover:text-gold">Privacy Policy</span>
-            <span>&middot;</span>
-            <span className="hover:text-gold">Terms of Engagement</span>
-            <span>&middot;</span>
-            <span className="hover:text-gold">Local Business Schema</span>
-          </div>
-        </div>
 
       </motion.div>
     </footer>
