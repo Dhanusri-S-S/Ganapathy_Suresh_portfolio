@@ -77,7 +77,7 @@ export default function Hero({ onExploreProperties, onContact }: HeroProps) {
             transition={{ duration: 0.8, delay: 0.45 }}
             className="text-forest/80 font-sans text-base sm:text-lg max-w-2xl leading-relaxed font-light"
           >
-            Over 15 years of hand-on expertise in identifying prime DTCP approved plots, providing solid construction advisory, and offering high-yield property investment strategies across Coimbatore and wider Tamil Nadu.
+            Over 28 years of hand-on expertise in identifying prime DTCP approved plots, providing solid construction advisory, and offering high-yield property investment strategies across Coimbatore and wider Tamil Nadu.
           </motion.p>
 
           {/* Domain Badges */}
