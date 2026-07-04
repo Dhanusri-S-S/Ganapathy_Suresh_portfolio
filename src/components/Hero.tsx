@@ -146,11 +146,10 @@ export default function Hero({ onExploreProperties, onContact }: HeroProps) {
             <div className="w-full h-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gold/20 flex flex-col p-4 relative">
               
               {/* Image Frame */}
-                <div className="relative w-full h-[430px] rounded-lg overflow-hidden bg-forest/5 border border-gold/10 shadow-inner">
-                <img
-                src="/portfolio.jpg"
+                <div className="w-full h-full object-contain bg-white grayscale-[15%] contrast-[105%]"
+               src="/portfolio.jpg"
                alt="Ganapathy Suresh"
-               className="absolute inset-0 w-full h-full object-cover grayscale-[15%] contrast-[105%]"
+               className= "w-full h-full object-contain bg-white grayscale-[15%] contrast-[105%]"
                referrerPolicy="no-referrer"
                loading="eager"
                 />
