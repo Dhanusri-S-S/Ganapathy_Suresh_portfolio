@@ -148,7 +148,7 @@ export default function Hero({ onExploreProperties, onContact }: HeroProps) {
               {/* Image Frame */}
               <div className="w-full flex-grow rounded-lg overflow-hidden bg-forest/5 border border-gold/10 relative shadow-inner">
                 <img
-                  src="C:\Users\Home\Pictures\portfolio.jpg"
+                  src="\portfolio.jpg"
                   alt="Ganapathy Suresh"
                   className="w-full h-full object-cover grayscale-[15%] contrast-[105%]"
                   referrerPolicy="no-referrer"
