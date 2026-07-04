@@ -157,7 +157,20 @@ export default function Footer({ onNavigate }: FooterProps) {
             <span className="hover:text-gold">Local Business Schema</span>
           </div>
         </div>
-
+{/* Developer Credit */}
+<div className="mt-8 pt-6 border-t border-ivory/10 text-center">
+  <p className="font-sans text-xs text-ivory/60">
+    Designed &amp; Developed by{" "}
+    <a
+      href="https://www.linkedin.com/in/dhanusri-s-s-580466373/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gold hover:text-gold-light font-semibold transition-colors duration-300 underline underline-offset-4"
+    >
+      DHANUSRI S S
+    </a>
+  </p>
+</div>
       </motion.div>
     </footer>
   );
